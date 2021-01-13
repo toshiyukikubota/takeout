@@ -2,13 +2,34 @@
 <html>
     <head>
         <title>テイクアウトTOP</title>
+
+        <style type="text/css">
+            .iframe-wrap {
+            position: relative;
+            width: 100%;
+            }
+            
+            .iframe-wrap iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            }
+        </style>
+
     </head>
     <body>
-        <button id="page1" onclick="window.open('page1.html', 'frame')">page1</button>
+        <!-- <button id="page1" onclick="window.open('page1.html', 'frame')">page1</button>
         <button id="page2" onclick="window.open('page2.html', 'frame')">page2</button>
-        <!-- <a href="https://www.yahoo.co.jp/" target="frame">yahoo</a>
-        <a href="https://www.google.com/" target="frame">google</a> -->
+        <a href="https://www.yahoo.co.jp/" target="frame">yahoo</a>
+        <a href="https://www.google.com/" target="frame">google</a>
         <iframe name="frame" src="page1.html">
-        </iframe>
+        </iframe> -->
+
+        <div class="iframe-wrap">
+            <iframe src="page1.html" frameborder="0"></iframe>
+        </div>
+           
     </body>
 </html>
