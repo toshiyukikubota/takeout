@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<true/>
+	<key>destination</key>
+	<string>export</string>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://github.com/toshiyukikubota/takeout/apps/Skylark-visit-app.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://github.com/toshiyukikubota/takeout/apps/img57.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://github.com/toshiyukikubota/takeout/apps/img512.png</string>
+	</dict>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>jp.co.skylark.app.gusto.staging</key>
+		<string>Skylark app Staging Ad Hoc</string>
+		<key>jp.co.skylark.app.gusto.staging.NotificationService</key>
+		<string>Skylark app Staging RichNotification Ad Hoc</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>A1705F9168EE07D04547747619D60124F40E4E42</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>5HFGFEQU5R</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>
